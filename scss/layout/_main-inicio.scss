@@ -1,0 +1,48 @@
+.background {
+    background-image: url(../assets/malvinas-inicio.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x:hidden;
+    height: 90vh;
+    width: 100vw;
+
+}
+
+.main-inicio {
+    
+    
+
+    .titulo{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
+        margin: 1.3em 0 0 6em;
+
+        h1 {
+            font-size: 2.8em;
+            grid-area: 1 / 3;
+            font-family: 'Rubik Dirt', cursive;
+        }
+        
+
+        p {
+            grid-area: 2 / 3;
+            font-size: 1.1em;
+            font-family: 'Rubik Dirt', cursive;
+        }
+
+        .btn {
+            grid-area: 3 / 3;
+
+            
+        }
+        
+            
+            
+
+           
+        
+    }
+
+}

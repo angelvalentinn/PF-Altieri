@@ -1,0 +1,49 @@
+.footer {
+    height: 10vh;
+    width: 100vw;
+    background-image: url(../assets/footer.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .container-footer {
+        @include props-flex(row,space-around,center);
+
+        .redes {
+
+            i {
+                color: $color-secundario;
+                padding: 0px 0px 0px 0.375em;
+                
+                
+            }
+        }
+
+        .mal {
+            @include props-flex(column,center,center);
+            margin: 0.313em 0px 0px 0px;
+
+            img {
+            height: 1.8em;
+            width: 1.8em;
+            
+            }
+            
+            h3 {
+                font-size: 0.7em;
+                margin-bottom: 0.063em;
+            }
+        }
+
+        .contactar {
+            @include props-flex(column,center,center);
+            margin: 0px 5px 0px 0px;
+            h3 {
+                font-size: 0.7em;
+                margin: -1px 6px 0px 0px;
+            }
+            
+        }
+    }
+}
+

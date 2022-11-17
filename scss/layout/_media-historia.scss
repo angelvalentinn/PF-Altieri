@@ -1,0 +1,125 @@
+@media screen and (min-width:425px){
+
+    .background-historia {
+        .main-historia {
+            
+            .container-historia {
+                @include props-flex(row,left,left);
+                width: 95%;
+                margin: 10px 10px;
+                
+
+                section {
+                    @include props-flex(row,left,left);
+                    flex-wrap: wrap; 
+                    padding: 0 0 40px 0;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 624px) and (min-width: 426px) {
+
+    .background-historia {
+        .main-historia {
+            
+            .container-historia {
+                @include props-flex(row,left,left);
+                width: 95%;
+                margin: 10px 10px;
+                
+
+                section {
+                    @include props-flex(row,left,left);
+                    flex-wrap: wrap; 
+                    padding: 0 0 40px 0;
+                    text-align: left;
+
+                    h1,h2{
+                        padding: 0 0 5px 0;
+                        font-size: 1.855em;
+                        font-family: 'Roboto Slab', serif;
+                        font-weight: 800;
+                    }
+                    p {
+                        font-family: 'Roboto Slab', serif;
+                        font-size: 1.4em;
+                        font-weight: 500;
+                        line-height: 1.452em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 625px) {
+
+    .background-historia {
+        .main-historia {
+            
+            .container-historia {
+                @include props-flex(row,left,left);
+                width: 95%;
+                margin: 10px 10px;
+                
+
+                section {
+                    @include props-flex(row,left,left);
+                    flex-wrap: wrap; 
+                    padding: 0 0 40px 0;
+                    text-align: left;
+
+                    h1,h2{
+                        padding: 0 0 5px 0;
+                        font-size: 2.3em;
+                        font-family: 'Roboto Slab', serif;
+                        font-weight: 800;
+                    }
+                    p {
+                        font-family: 'Roboto Slab', serif;
+                        font-size: 1.5em;
+                        font-weight: 500;
+                        line-height: 1.452em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) {
+    .background-historia {
+        .main-historia {
+            
+            .container-historia {
+                @include props-flex(row,left,left);
+                width: 95%;
+                margin: 10px 10px;
+                
+
+                section {
+                    @include props-flex(row,left,left);
+                    flex-wrap: wrap; 
+                    padding: 0 0 40px 0;
+                    text-align: left;
+
+                    h1,h2{
+                        padding: 0 0 5px 0;
+                        font-size: 4em;
+                        font-family: 'Roboto Slab', serif;
+                        font-weight: 800;
+                    }
+                    p {
+                        font-family: 'Roboto Slab', serif;
+                        font-size: 1.7em;
+                        font-weight: 500;
+                        line-height: 1.452em;
+                    }
+                }
+            }
+        }
+    }
+}

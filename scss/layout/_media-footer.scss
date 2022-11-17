@@ -1,0 +1,195 @@
+@media screen and (max-width:366px){
+    .footer {
+        .container-footer {
+            justify-content: space-evenly;
+            
+            .redes {
+                margin-top: 8px;
+            }
+
+            .mal {
+                display: none;
+            }
+
+            .contactar {
+                margin-top: 8px;
+                h3 {
+                    margin-top: 0;
+                    padding-top: 0;
+                    padding-left: 2px;
+                }
+                button {
+                    margin-top: 0;
+                    padding-top: 0;
+                }
+               
+            }
+        }
+    }
+}
+
+@media (max-width:575px)and(min-width:426px){
+    .footer {
+        
+        .container-footer {
+            
+            .redes {
+               
+                i {
+                    
+                   font-size: 17px;
+                    
+                }
+            }
+
+            .mal {
+                img {
+                    height: 2.2em;
+                    width: 2.2em;
+                }
+                h3 {
+                    font-size: 13px;
+                }
+            }
+
+            .contactar{
+                h3 {
+                    font-size: 13px;
+                }
+                .btn-footer {
+                    padding: 0px;
+                    padding: 4px 14px 4px 14px;
+                    margin: 4px 4px 0px 0px;
+                    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.8);
+                    cursor: pointer;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:800px)and(min-width:575px){
+    .footer {
+        
+        .container-footer {
+            
+            .redes {
+               
+                i {
+                    
+                   font-size: 21px;
+                    
+                }
+            }
+
+            .mal {
+                img {
+                    height: 2.4em;
+                    width: 2.4em;
+                }
+                h3 {
+                    font-size: 16px;
+                }
+            }
+
+            .contactar{
+                h3 {
+                    font-size: 16px;
+                }
+                .btn-footer {
+                    padding: 0px;
+                    padding: 5px 16px 5px 16px;
+                    margin: 0px 4px 0px 0px;
+                    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.8);
+                    cursor: pointer;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:925px)and(min-width:647px){
+    .footer {
+        
+        .container-footer {
+            
+            .redes {
+               
+                i {
+                    
+                   font-size: 25px;
+                    
+                }
+            }
+
+            .mal {
+                img {
+                    height: 2.3em;
+                    width: 2.3em;
+                }
+                h3 {
+                    font-size: 18px;
+                }
+            }
+
+            .contactar{
+                h3 {
+                    font-size: 18px;
+                }
+                .btn-footer {
+                    padding: 0px;
+                    padding: 5px 16px 5px 16px;
+                    margin: 0px 4px 0px 0px;
+                    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.8);
+                    cursor: pointer;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1400px)and(min-width:925px){
+    .footer {
+        height: 11vh;
+        .container-footer {
+            
+            .redes {
+               
+                i {
+                    
+                   font-size: 28px;
+                    
+                }
+            }
+
+            .mal {
+                margin-top: 0px;
+                img {
+                    height: 2em;
+                    width: 2em;
+                }
+                h3 {
+                    font-size: 20px;
+                }
+            }
+
+            .contactar{
+                h3 {
+                    font-size: 20px;
+                }
+                .btn-footer {
+                    padding: 0px;
+                    padding: 4px 16px 4px 16px;
+                    margin: 0px 4px 0px 0px;
+                    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.8);
+                    cursor: pointer;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,84 @@
+.header {
+  height: 20vh;
+  width: 100vw;
+  @include props-flex(column,center,center);
+  /* background-color: $color-primario; */
+  background-color: rgba(0,0,0,.3s);
+
+  .container-logo {
+    height: 50%;
+    text-align: center;
+
+    .logo {
+      height: 3.5em;
+      width: 3.5em;
+      margin: 3px 0px 3px 0px ;
+      -webkit-animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+      animation: scale-up-center 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+  }
+  
+  .navbar {
+    height: 50%;
+    /* background-color: rgba(0,0,0,.8); */
+
+     nav ul {
+      @include props-flex(row,center,center);
+      height: 2.8em;
+
+      li {
+        list-style: none;
+
+        .active {
+          color: $color-primario;
+        }
+
+        a{
+          text-decoration: none;
+          padding: 0px 5px;
+          color: $color-secundario;
+          font-size: 0.875em;
+
+          &:hover {
+            color: $color-primario;
+            transition: ease-in-out 0.1s;
+            
+          }
+           
+          
+        }
+      }
+      
+    }
+  }
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+
+
